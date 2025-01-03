@@ -1,0 +1,21 @@
+Site Structure:
+www-permanent/
+├── src/
+│   ├── assets/
+│   │   └── images/
+│   │       ├── hero.jpg         # Main homepage hero image
+│   │       ├── about-hero.jpg   # About page hero
+│   │       └── faq-hero.jpg     # FAQ page hero
+│   ├── components/
+│   │   └── widgets/
+│   │       ├── Hero.astro       # Already exists in AstroWind
+│   │       ├── Features.astro   # Already exists in AstroWind
+│   │       └── Steps.astro      # Already exists in AstroWind
+│   ├── content/
+│   │   └── post/               # Where we'll put our main content
+│   │       ├── about.md
+│   │       └── faq.md
+│   └── pages/
+│       ├── index.astro         # Homepage
+│       ├── about.astro         # About page
+│       └── faq.astro          # FAQ page
