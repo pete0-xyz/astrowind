@@ -32,48 +32,36 @@ const metadata = {
     ]}
     textarea={{
       label: 'Message',
+      name: 'message',
     }}
     disclaimer={{
       label:
         'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
     }}
-    description="Our support team typically responds within 24 business hours."
+    description="We'll get back to you as soon as possible."
+    button="Send Message"
   />
 
   <!-- Features2 Widget ************** -->
 
   <Features2
     title="We are here to help!"
+    columns={2}
     items={[
       {
-        title: 'General support',
-        description: `Chat with us for inquiries related to account management, website navigation, payment issues, accessing purchased templates or general questions about the website's functionality.`,
-      },
-      {
-        title: 'Contact sales',
-        description:
-          'Chat with us for questions about purchases, customization options, licensing for commercial use, inquiries about specific template, etc.',
-      },
-      {
-        title: 'Technical support',
-        description:
-          'Chat with us when facing issues like template installation, problems editing difficulties, compatibility issues with software or download errors, or other technical challenges related to using the templates.',
-      },
-      {
-        title: 'Phone',
-        description: '+1 (234) 567-890',
-        icon: 'tabler:headset',
-      },
-      {
-        title: 'Email',
-        description: 'contact@support.com',
+        title: 'Get in Touch',
+        description: 'For any inquiries about our properties or services, please reach out to us at <a href="mailto:pete@permanenthomes.org" class="text-primary hover:underline">pete@permanenthomes.org</a>',
         icon: 'tabler:mail',
       },
       {
         title: 'Location',
-        description: '1234 Lorem Ipsum St, 12345, Miami, EEUU',
-        icon: 'tabler:map-pin',
+        description: 'Paonia, CO',
+        icon: 'tabler:map-2',
       },
     ]}
+    classes={{
+      container: 'max-w-3xl mx-auto',
+      items: 'text-center',
+    }}
   />
 </Layout>

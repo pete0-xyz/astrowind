@@ -80,6 +80,12 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
       >
         FAQ
       </a>
+      <a
+        class="hover:text-link dark:hover:text-white px-4 py-3 flex items-center whitespace-nowrap"
+        href="/contact"
+      >
+        CONTACT
+      </a>
       <div class="hidden items-center md:flex">
         {showToggleTheme && <ToggleTheme iconClass="w-5 h-5 md:w-5 md:h-5 md:inline-block" />}
         {

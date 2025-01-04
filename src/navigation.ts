@@ -1,7 +1,16 @@
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
-  links: [],
+  links: [
+    {
+      text: 'FAQ',
+      href: '/faq',
+    },
+    {
+      text: 'CONTACT',
+      href: '/contact',
+    },
+  ],
 };
 
 export const footerData = {
