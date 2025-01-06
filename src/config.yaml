@@ -1,5 +1,5 @@
 site:
-  name: AstroWind
+  name: Permanent Homes
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Permanent Homes
+    template: '%s — Permanent Homes'
+  description: 'Permanent Homes - A nonprofit real estate organization helping people find and maintain permanent homes in Paonia, Colorado. Zero commission real estate services for permanent residents.'
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: Permanent Homes
     images:
       - url: '~/assets/images/default.png'
         width: 1200
